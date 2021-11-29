@@ -33,6 +33,11 @@ export default {
     '@nuxtjs/eslint-module'
   ],
 
+  // nuxt.config.js
+  buildModules: [
+    '@nuxtjs/fontawesome',
+  ],
+
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
   ],

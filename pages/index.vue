@@ -51,12 +51,6 @@ export default {
 </script>
 
 <style lang="scss">
-// Store page content
-$fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
-@import "~@fortawesome/fontawesome-free/scss/fontawesome";
-@import "~@fortawesome/fontawesome-free/scss/solid"; // fas
-@import "~@fortawesome/fontawesome-free/scss/regular"; // far
-@import "~@fortawesome/fontawesome-free/scss/brands"; // fab
 
 @import "../scss/_base.normalize.scss";
 @import "../scss/_components.content.scss";
