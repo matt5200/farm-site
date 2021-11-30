@@ -27,12 +27,6 @@ export default {
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
 
-  // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: [
-    // https://go.nuxtjs.dev/eslint
-    '@nuxtjs/eslint-module'
-  ],
-
   modules: [
     [
       'nuxt-fontawesome', {
@@ -49,11 +43,6 @@ export default {
       }
   ]
 ],
-
-  // nuxt.config.js
-  buildModules: [
-    '@nuxtjs/fontawesome',
-  ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [

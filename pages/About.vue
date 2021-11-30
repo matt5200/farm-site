@@ -71,10 +71,10 @@ export default {
 
 <style lang="scss">
 
-@import "../../scss/_base.normalize.scss";
-@import "../../scss/_components.content.scss";
-@import "../../scss/_settings.responsive.scss";
-@import "../../scss/_settings.variables.scss";
-@import "../../scss/style.scss";
+@import "../scss/_base.normalize.scss";
+@import "../scss/_components.content.scss";
+@import "../scss/_settings.responsive.scss";
+@import "../scss/_settings.variables.scss";
+@import "../scss/style.scss";
 
 </style>
