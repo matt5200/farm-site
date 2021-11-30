@@ -40,7 +40,8 @@
   </div>
 </template>
 
-<script>
+<script >
+
 // Store page content
 export default {
     name: 'pageData',
@@ -57,9 +58,18 @@ export default {
         }
     }
 }
+
 </script>
 
 <style lang="scss">
+
+
+@import "../../scss/_base.normalize.scss";
+@import "../../scss/_components.content.scss";
+@import "../../scss/_settings.responsive.scss";
+@import "../../scss/_settings.variables.scss";
+@import "../../scss/style.scss";
+
 
 // Formatting for page content
 
