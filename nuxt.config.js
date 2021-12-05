@@ -33,7 +33,7 @@ export default {
         imports: [
          {
            set: '@fortawesome/free-solid-svg-icons',
-           icons: ['fas']
+           icons: ['fas fa-tractor']
          },
          {
            set:'@fortawesome/free-brands-svg-icons',
