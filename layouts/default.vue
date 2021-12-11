@@ -27,6 +27,9 @@
               <li class="nav-item">
                 <nuxt-link class="nav-link" to="/About">About</nuxt-link>
               </li>
+              <li class="nav-item">
+                <nuxt-link class="nav-link" to="/Api">Schedule</nuxt-link>
+              </li>
             </ul>
           </div>
       </nav>
@@ -39,14 +42,6 @@
 
 <script>
 
-import Foot from '../components/Foot.vue'
-
-export default {
-  layout: 'foot',
-  components: {
-    Foot
-  }
-}
 
 </script>
 

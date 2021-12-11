@@ -3,8 +3,8 @@
      <div class="row">
           <!-- Image with text -->
           <div class="col">
-            <Image :source="'sky.jpg'" :message="'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.'" :title="'Beauty'" :desc="'Image of sky'"/>
-            <Image :source="'sky.jpg'" :message="'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.'" :title="'Beauty'" :desc="'Image of sky'"/>
+            <Test :source="'sky.jpg'" :message="'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.'" :title="'Beauty'" :desc="'Image of sky'"/>
+            <Test :source="'sky.jpg'" :message="'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.'" :title="'Beauty'" :desc="'Image of sky'"/>
           </div>
       </div>
   </div>
@@ -12,13 +12,8 @@
 
 <script>
 
-import Image from '../components/Image.vue'
-
 export default {
-  name: 'App',
-  components: {
-    Image
-  },
+  layout: 'Test',
   paragraph: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.'
 }
 
