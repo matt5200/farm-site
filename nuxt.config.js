@@ -28,20 +28,10 @@ export default {
   components: true,
 
   modules: [
-    [
-      'nuxt-fontawesome', {
-        imports: [
-         {
-           set: '@fortawesome/free-solid-svg-icons',
-           icons: ['fas fa-tractor']
-         },
-         {
-           set:'@fortawesome/free-brands-svg-icons',
-           icons: ['fab']
-         }
-       ]
-      }
-  ]
+    '@nuxtjs/axios',
+    '@fortawesome',
+    '@nuxtjs/bootstrap-vue',
+    '@nuxtjs/bootstrap'
 ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
